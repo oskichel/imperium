@@ -1,0 +1,61 @@
+.container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 22px;
+}
+
+.lights_container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carousel {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  column-gap: 200px;
+  overflow: hidden;
+}
+
+.card {
+  width: 992px;
+  height: 601px;
+  position: relative;
+  color: #F5F5F5;
+}
+
+.card_block {
+  width: 281px;
+  height: 269px;
+  margin: 48px 18px 0 0;
+  position: absolute;
+  z-index: 500;
+  top: 0;
+  right: 0 ;
+}
+
+.card_name {
+  margin: 0 0 10px 0;
+}
+
+.card_info {
+  width: 177px;
+  margin: 0 0 32px 0;
+}
+
+.card_button {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 1px solid #F5F5F5;
+  background-color: transparent;
+}
+
+.card_stick_buttons {
+  display: flex;
+  justify-content: space-between;
+}

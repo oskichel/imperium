@@ -1,0 +1,6 @@
+
+.lights_container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}

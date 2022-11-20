@@ -1,0 +1,106 @@
+.sale {
+  height: 936px;
+  padding: 70px 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sale_container {
+  display: flex;
+}
+
+.sale_header {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 104px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  border: 1px solid #BCBCBC;
+}
+
+.lights_container {
+  position: relative;
+}
+
+.text {
+  width: 490px;
+  height: 48px;
+  margin: 40px 0 32px;
+  font-size: 18px;
+  line-height: 24px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #BCBCBC;
+}
+
+.subscribe_form {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 56px;
+  position: relative;
+}
+
+.subscribe_input {
+  width: 445px;
+  height: 32px;
+  padding-bottom: 10px;
+  opacity: 0.45;
+  background: transparent;
+  border-bottom: 1px solid #7D7D7D;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.subscribe_input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.subscribe_input:focus {
+  outline: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.subscribe_error {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 60px;
+}
+
+.subscribe_thanks {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BCBCBC;
+  position: absolute;
+}
+
+.pic_container {
+  width: 736px;
+  height: 736px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #333333;
+  position: relative;
+  right: -100px;
+}
+
+.sale_pic {
+  width: 655px;
+  height: 655px;
+  border-radius: 50%;
+  overflow: hidden;
+}

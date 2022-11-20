@@ -1,0 +1,169 @@
+.mainCarousel_container {
+  margin-top: 40px;
+  padding-bottom: 130px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 22px;
+}
+
+.mainCarousel_wrap {
+  position: relative;
+}
+
+.mainCarousel_catalog {
+  position: absolute;
+  z-index: 10;
+  top: -90px;
+  right: -90px;
+}
+
+.mainCarousel_buttons {
+  width: 1218px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mainCarousel_left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  right: auto;
+  transform: translate(0, -50%);
+}
+
+.mainCarousel_right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  left: auto;
+  transform: translate(0, -50%);
+}
+
+.choiceCarousel {
+  height: 906px;
+  background: #F5F5F5;
+  padding: 100px 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.choiceCarousel_containter {
+  width: 1218px;
+  height: 513px;
+  margin: 0 auto;
+}
+
+.choiceCarousel_wrap {
+  width: 1218px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.choiseCarousel_header {
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.card {
+  width: 992px;
+  height: 601px;
+  position: relative;
+  color: #F5F5F5;
+}
+
+.card_block {
+  width: 281px;
+  height: 269px;
+  margin: 48px 18px 0 0;
+  position: absolute;
+  z-index: 500;
+  top: 0;
+  right: 0 ;
+}
+
+.card_name {
+  width: 200px;
+  margin: 0 0 10px 0;
+}
+
+.card_info {
+  width: 177px;
+  margin: 0 0 32px 0;
+}
+
+.card_button {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 1px solid #F5F5F5;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #F5F5F5;
+}
+
+.card_stick_name {
+  margin: 16px 0 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+.card_stick_info {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+.card_stick_buttons {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stroke {
+  position: absolute;
+  left: -15px;
+  bottom: -890px;
+  z-index: 100;
+}
+
+.stroke_white {
+  width: 1974px;
+  height: 60px;
+  background: #F5F5F5;
+  border: 1px solid #333333;
+  transform: rotate(-2.51deg);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+.stroke_blue {
+  width: 1974px;
+  height: 60px;
+  background: #0178F3;
+  transform: rotate(5.09deg);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #F5F5F5;
+}

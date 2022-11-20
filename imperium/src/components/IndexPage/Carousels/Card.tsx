@@ -1,7 +1,7 @@
-import { Button } from '../../shared/Button';
-import { ButtonWithText } from '../../shared/ButtonWithText';
-import GraphIcon from '../../shared/icons/GraphIcon';
-import st from './IndexPage.module.css';
+import { Button } from '../../../shared/Button';
+import { ButtonWithText } from '../../../shared/ButtonWithText';
+import GraphIcon from '../../../shared/icons/GraphIcon';
+import st from './Carousels.module.css';
 
 export type CardProps = {
   id: number;
@@ -18,11 +18,17 @@ export const Card = ({id, src, name, info, genitiveName, isStickCard = false}: C
   };
 
   const stickCard = <div>
-    <img src={src} alt={name} />
-    <div>{name}</div>
-    <div>{info}</div>
+    <img src={src} alt={name} className={st.card_stick_img}/>
+    <div className={st.card_stick_name}>{name}</div>
+    <div className={st.card_stick_info}>{info}</div>
     <div className={st.card_stick_buttons}>
-      <Button isSlider={false} isTurnedRight={false} onClick={handleClick} icon={<GraphIcon />} />
+      <Button 
+        isSlider={false} 
+        isTurnedRight={false} 
+        onClick={handleClick} 
+        icon={<GraphIcon />} 
+        color={'#BCBCBC'}
+        hover={'#333333'} />
       <ButtonWithText onClick={handleClick} text={'Подробнее'} />
     </div>
   </div>;
@@ -32,7 +38,9 @@ export const Card = ({id, src, name, info, genitiveName, isStickCard = false}: C
     <div className={st.card_block}>
       <h4 className={st.card_name} >{name}</h4>
       <p className={st.card_info} >{info}</p>
-      <button className={st.card_button} >Отзывы {genitiveName}</button>
+      <button className={st.card_button} >
+        Отзывы {genitiveName}
+      </button>
     </div>
   </div>;
   

@@ -1,0 +1,122 @@
+.selection {
+  position: relative;
+}
+
+.selection_title {
+  width: 650px;
+  height: 104px;
+  margin: 100px auto 24px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #F5F5F5;
+}
+
+.selection_text {
+  width: 600px;
+  height: 24px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #D8D8D8;
+}
+
+.test_container {
+  width: 1386px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+  top: 53px;
+  right: -27px;
+}
+
+.test_button {
+  position: absolute;
+  top: 100px;
+  top: 350px;
+  right: 240px;
+}
+
+.selection_logo {
+  position: absolute;
+  z-index: -1;
+  top: 28%;
+}
+
+.about {
+  height: 1323px;
+  margin-left: 190px;
+  padding: 100px 160px 0;
+  border-radius: 50px 0 0 50px;
+  background-color: #F5F5F5;
+}
+
+.about_header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+.content_container {
+  max-width: 1219px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand_text {
+  width: 491px;
+  height: 72px;
+  margin: 24px 0 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+.info_container {
+  margin-top: 110px;
+}
+
+.company_card {
+  width: 594px;
+  height: 495px;
+  margin-bottom: 54px;
+}
+
+.card_title {
+  width: 299px;
+  height: 29px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+.card_text {
+  width: 594px;
+  margin: 16px 0 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #7D7D7D;
+}
+
+.card_img {
+  width: 594px;
+  height: 344px;
+  border-radius: 60px 0px;
+}

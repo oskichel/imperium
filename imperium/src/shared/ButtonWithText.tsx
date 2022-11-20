@@ -18,6 +18,11 @@ const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid #F64F00;
+    color: #F64F00;
+  }
 `;
 
 

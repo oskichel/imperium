@@ -1,0 +1,129 @@
+.footer {
+  height: 671px;
+  background: #F5F5F5;
+}
+
+.footer_container {
+  width: 1186px;
+  padding: 106px 0 0 350px;
+}
+
+.footer_content {
+  margin-top: 55px;
+  display: flex;
+  column-gap: 165px;
+}
+
+.footer_logo {
+  width: 407px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_social {
+  display: flex;
+  column-gap: 16px;
+}
+
+.infoBlock {
+  max-width: 352px;
+  margin-bottom: 16px;
+}
+
+.infoBlock_title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #BCBCBC;
+}
+
+.infoBlock_info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+.info_mini_block {
+  display: flex;
+  width: 354px;
+  justify-content: space-between;
+}
+
+.footer_copyright {
+  font-weight: 400;
+  margin-top: 68px;
+  font-size: 16px;
+  line-height: 22px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #7D7D7D;
+}
+
+.footer_copyright_link {
+  margin-top: 8px;
+  color: #7D7D7D;
+  text-decoration-line: underline;
+}
+
+.footer_pages {
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+  position: relative;
+}
+
+.footer_brand {
+  display: flex;
+  column-gap: 80px;
+}
+
+.footer_customers {
+  display: flex;
+  flex-direction: column;
+}
+
+.pages {
+  width: 199px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pages_title {
+  margin: 0 0 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+.footer_pages_link {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+.customers_wrap {
+  display: flex;
+  column-gap: 80px;
+}
+
+.footer_button {
+  position: absolute;
+  top: -95px;
+  right: -200px;
+  left: auto;
+}
+
+.footer_icon {
+  position: absolute;
+  bottom: 15px;
+  right: -200px;
+}

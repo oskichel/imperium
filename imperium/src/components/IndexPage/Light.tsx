@@ -3,13 +3,13 @@ export type LightProps = {
   height?: number;
   color: string;
   blur?: number;
-  top?: number;
+  top: number;
   right?: number;
   bottom?: number;
   left?: number;
 }
 
-export const Light = ({width, height, color, blur, top, right, bottom, left}: LightProps) => {
+export const Light = ({width, height=width, color, blur, top, right, bottom, left}: LightProps) => {
   return (
     <div style={{
       width: `${width}px`, 

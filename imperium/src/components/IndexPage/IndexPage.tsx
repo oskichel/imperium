@@ -1,16 +1,16 @@
-import { MainCarousel } from './MainCarousel';
+import { MainCarousel } from './Carousels/MainCarousel';
+import { ChoiceCarousel } from './Carousels/ChoiceCarousel';
 import { cardsData } from './mockDatas/cardsData';
 import { sticksData } from './mockDatas/sticksData';
-import { ChoiceCarousel } from './ChoiceCarousel/ChoiceCarousel';
-import { SelectionBlock } from './SelectionBlock';
-import { SaleBlock } from './SaleBlock';
+import { SelectionBlock } from './SelectionBlock/SelectionBlock';
+import { SaleBlock } from './SaleBlock/SaleBlock';
 
 
 
 export const IndexPage = () => {
   return (
     <div>
-      <MainCarousel cardsData={cardsData}/>
+      <MainCarousel cards={cardsData}/>
       <ChoiceCarousel sticksData={sticksData}/>
       <SelectionBlock />
       <SaleBlock />
